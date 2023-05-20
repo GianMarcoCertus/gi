@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <!-- Brand -->
+            <img src="./img/Logo.png" alt="TechNews Logo" class="nav-brand">
+            <input type="checkbox" id="check">
+            <label for="check" class="barbtn">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </label>
+            <!-- Left Nav -->
+            <ul class="nav-menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="./Personajes.html">Personajes</a></li>
+                <li><a href="./Mapas.html">Mapas</a></li>
+            </ul>
+            <!-- Right Nav -->
+            <button class="mi-boton"><a href="https://store.steampowered.com/app/550/Left_4_Dead_2/">Descarga</a>  <i class="fa-solid fa-circle-down"></i></button>
+        </nav>
+        <hr>
+        <main class="slider-container">
+            <header class="showcase">
+                <img src="./img/Logo.png" alt="logo" class="logocara">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad ab voluptas quidem vitae enim!</p>
+                <button class="mi-boton"><a href="https://store.steampowered.com/app/550/Left_4_Dead_2/">Descarga</a>  <i class="fa-solid fa-circle-down"></i></button>
+            </header>
+        </main>
+        <div class="noticias">
+            <div class="card">
+                <div class="face front">
+                    <img src="./img/noticia1.jpg" alt="">
+                    <h3>Noticia 1</h3>
+                </div>
+                <div class="face back">
+                    <h3>Noticia 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab soluta deleniti accusantium corporis tempore ad non cupiditate inventore et.</p>
+                    <div class="link"><a href="#">Detalles</a></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <img src="./img/noticia2.jpg" alt="">
+                    <h3>Noticia 1</h3>
+                </div>
+                <div class="face back">
+                    <h3>Noticia 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab soluta deleniti accusantium corporis tempore ad non cupiditate inventore et.</p>
+                    <div class="link"><a href="#">Detalles</a></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <img src="./img/noticia3.jpeg" alt="">
+                    <h3>Noticia 1</h3>
+                </div>
+                <div class="face back">
+                    <h3>Noticia 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab soluta deleniti accusantium corporis tempore ad non cupiditate inventore et.</p>
+                    <div class="link"><a href="#">Detalles</a></div>
+                </div>
+            </div>
+        </div>
+        <section class="banner-one">
+            <center>
+                <div class="coment">
+                <h4 data-text="Suscribete...">Suscribete...</h4>
+            <p id="texto">Suscríbete hoy mismo para recibir por correo electrónico las últimas novedades, actualizaciones, contenido entre bastidores, ofertas y mucho más de Left 4 Dead 2™ (incluidas otras noticias, productos, eventos y promociones de Steam. suscribete now!). </p>
+                </div>
+                <div class="suscri">
+                    <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="task">Tarea para confirmar:</label>
+                    <input type="text" id="task" name="task" placeholder="Ingresa la tarea para confirmar" required>
+                    </div>
+                    <button type="submit" class="subscribe-btn">Suscribirse</button>
+                </div>
+            </center>
+        </section>
+        <footer class="pie">
+            <div class="footercontainer">
+                <div class="socialicons" style="display: flex; justify-content: center;">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="footernav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Team</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerbottom">
+                <p>Copyright ©2023; Designed by <span class="diseñador">Marco Mendez</span></p>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
